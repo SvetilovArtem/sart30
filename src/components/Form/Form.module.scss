@@ -1,0 +1,32 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 110px auto;
+    label div {
+        margin-bottom: 5px;
+    }
+    input {
+        padding: 6px 20px;
+        border: 1px solid #333;
+        border-radius: 5px;
+    }
+    button {
+        padding: 7px 20px;
+        background-color: rgba(80, 234, 183, 0.75);
+        color: #333;
+        width: 220px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+            background-color: rgba(80, 234, 183, 1);
+        }
+        &:active {
+            background-color: rgb(4, 175, 118);
+        }
+    }
+}
